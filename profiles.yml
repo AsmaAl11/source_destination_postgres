@@ -1,0 +1,14 @@
+transf_post:
+
+  outputs:
+    dev:
+      type: postgres
+      threads: 1
+      host: localhost
+      port: 5432
+      user: admin
+      pass: admin
+      dbname: atop
+      schema: public
+      
+  target: dev
